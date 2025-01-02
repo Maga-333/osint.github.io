@@ -35,7 +35,7 @@
         </style>
     </head>
     <body>
-        <h1 align = "center"><b>Osint Framework</b></b></h1>
+        <h1 align = "center"><b>Osint Framework</b></h1>
         <h1>Open Source Intelligence</h1>
         <p align="justify">Open-source intelligence (OSINT) is the insight gained from processing and analyzing public 
             data sources such as broadcast TV and radio, social media, 
