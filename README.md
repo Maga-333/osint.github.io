@@ -14,9 +14,9 @@
                 color: black;
             }
             .custom-link:hover{
-                color: blue;
+                color: red;
                 background-color: transparent;
-                text-decoration: none;
+                text-decoration: underline;
             }
             .custom-link:link{
                 color: black;
