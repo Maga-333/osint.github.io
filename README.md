@@ -18,11 +18,9 @@
                 background-color: transparent;
                 text-decoration: underline;
                 text-decoration-color: blue;
-                text-decoration-line: underline;
             }
-            .custom-link:link{
+            .custom-link{
                 color: black;
-                background-color: transparent;
                 text-decoration: none;
             }
             body{
