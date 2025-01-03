@@ -99,7 +99,7 @@
     <footer>
         <hr>
         <p><i>Author: Nitharshana N</i></p>
-        <p><i><u>Refrence: osintframework.com</u></i></p>
+        <p color="blue"><i><u>Refrence: osintframework.com</u></i></p>
         <h2>&copy; <i>Copyright</i></h2>
     </footer>
     </body>
