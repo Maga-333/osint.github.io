@@ -16,7 +16,7 @@
             .custom-link:hover{
                 color: blue;
                 background-color: transparent;
-                text-decoration: none;
+                text-decoration: underline;
             }
             .custom-link:link{
                 color: black;
