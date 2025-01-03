@@ -14,7 +14,7 @@
                 color: black;
             }
             .custom-link:hover{
-                color: red;
+                color: blue;
                 background-color: transparent;
                 text-decoration: underline;
             }
