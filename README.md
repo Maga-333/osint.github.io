@@ -11,12 +11,14 @@
                 color: black;
             }
             h2{
-                color: black;
+                color: red;
             }
             .custom-link:hover{
                 color: blue;
                 background-color: transparent;
                 text-decoration: underline;
+                text-decoration-color: blue;
+                text-decoration-line: underline;
             }
             .custom-link:link{
                 color: black;
