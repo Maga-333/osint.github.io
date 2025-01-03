@@ -11,7 +11,7 @@
                 color: black;
             }
             h2{
-                color: red;
+                color: black;
             }
             .custom-link:hover{
                 color: blue;
