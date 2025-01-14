@@ -83,7 +83,7 @@
             
         <h2>
             <b>
-                <a href="https://haveibeenpwned.com/" class="custom-link"><u>3. Email Address in Data Breach>/u></a>
+                <a href="https://haveibeenpwned.com/" class="custom-link"><u>3. Email Address in Data Breach</a>
             </b>
         </h2>
         <p align="justify">Have I Been Pwned? is a website that allows Internet users to check whether their personal data has 
