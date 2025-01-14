@@ -25,7 +25,7 @@
             }
             body{
                 color: black;
-                font-size: 20px;
+                font-size: 50px;
             }
             .special{
                 margin: 0;
