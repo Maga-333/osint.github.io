@@ -49,7 +49,7 @@
             and websites. These sources provide data in text, video, image, and audio formats.It is include to cyber defence
              team.</p>
         <h2><b>
-        <a  href = "https://www.nslookup.io/" class="custom-link">1. IP Address</a>
+        <a  href = "https://www.nslookup.io/" class="custom-link"><u>1. IP Address</u></a>
         </b></h2>
         <p align="justify">
             An A record (Address Record) points a domain or subdomain to an IP address. 
@@ -74,7 +74,7 @@
         <br>
         
         <h2> <b>
-            <a href="https://www.whois.com/whois/" class="custom-link">2. Domain Register Records Information</a>
+            <a href="https://www.whois.com/whois/" class="custom-link">2. <u>Domain Register Records Information</u></a>
             </b></h2>
         <p align="justify">A Whois domain lookup allows you to trace the ownership and tenure of a domain name. 
             imilar to how all houses are registered with a governing authority, all domain name registries maintain a record of 
