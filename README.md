@@ -74,7 +74,7 @@
         <br>
         
         <h2> <b>
-            <a href="https://www.whois.com/whois/" class="custom-link"><u>2. Domain Register Records Information</u></a>
+            <a href="https://www.whois.com/whois/" class="custom-link">2. Domain Register Records Information</a>
             </b></h2>
         <p align="justify">A Whois domain lookup allows you to trace the ownership and tenure of a domain name. 
             imilar to how all houses are registered with a governing authority, all domain name registries maintain a record of 
