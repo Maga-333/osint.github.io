@@ -91,7 +91,7 @@
              to protect their own security and privacy.</p><br>
         <h2>
             <b>
-                <a href="https://wheregoes.com/" class="custom-link"><u>4. URL Redirect Checker<u></a>
+                <a href="https://wheregoes.com/" class="custom-link">4. URL Redirect Checker</a>
             </b>
         </h2>
         <p align="justify">Where does this link go? The URL redirect checker follows the path of the URL. It will show you the 
