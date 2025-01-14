@@ -107,18 +107,9 @@
             <p align="justify">Analyse suspicious files, domains, IPs and URLs to detect malware and other breaches, automatically 
                 share them with the security community. </p><br>    
 
-            <h2>
-                <b>
-                    <a href="https://web.archive.org/" class="custom-link">6. Back in Time for Websites</a>
-                </b>
-            </h2>
-            <p align="justify">The Wayback Machine is a digital archive of the World Wide Web founded by the Internet Archive, an American nonprofit 
-                organization based in San Francisco, California. Created in 1996 and launched to the public in 2001, it allows users 
-                to go "back in time" to see how websites looked in the past.</p><br>
-    
 
             <h2><b>
-                <a href = "https://tineye.com/" class="custom-link">7. Reverse Image Search</a>
+                <a href = "https://tineye.com/" class="custom-link">6. Reverse Image Search</a>
             </b></h2>
             <p align="justify">TinEye is a reverse image search engine developed and offered by Idée, Inc., a company based in Toronto, Ontario,
                  Canada. It is the first image search engine on the web to use image identification technology rather than keywords, 
