@@ -21,7 +21,7 @@
             }
             .custom-link{
                 color: black;
-                text-decoration: none;
+                text-decoration: underline;
             }
             body{
                 color: black;
