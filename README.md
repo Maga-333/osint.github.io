@@ -27,6 +27,9 @@
                 color: black;
                 font-size: 20px;
             }
+             .special{
+                margin: 0;
+            }
             #hello{
                 color:blue;
             }
