@@ -7,7 +7,8 @@
     <style>
         
         body {
-            display: flex;
+            display: grid;
+            place-items: center;
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
