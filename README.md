@@ -1,128 +1,210 @@
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Open Source Intelligence</title>
-        <style>
-            html{
-                background-color: palegoldenrod;
-            }
-            h4{
-                color: black;
-            }
-            h2{
-                color: black;
-            }
-            .custom-link:hover{
-                color: blue;
-                background-color: transparent;
-                text-decoration: underline;
-                text-decoration-color: blue;
-            }
-            .custom-link{
-                color: black;
-                text-decoration: underline;
-            }
-            body{
-                color: black;
-                font-size: 50px;
-            }
-            .special{
-                margin: 0;
-            }
-            #hello{
-                color:blue;
-            }
-            footer {
-            text-align: center;
-            padding: 3px;
-            background-color: transparent;
-        }
-        </style>
-    </head>
-    <body>
-        <b><h1 align = "center">
-            Osint Framework 
-        </h1></b>
-        <h1>Open Source Intelligence</h1>
-        <p align="justify">Open-source intelligence (OSINT) is the insight gained from processing and analyzing public 
-            data sources such as broadcast TV and radio, social media, 
-            and websites. These sources provide data in text, video, image, and audio formats.It is include to cyber defence
-             team.</p>
-        <h2><b>
-        <a  href = "https://www.nslookup.io/" class="custom-link">1. IP Address</a>
-        </b></h2>
-        <p align="justify">
-            An A record (Address Record) points a domain or subdomain to an IP address. 
-            For example, an A Record is used to point a logical domain name, such as "google.com," to the IP address of Google's
-             hosting server, "74.125.224.147" 
-        </p>
-        <h4><i>=> CNAME RECORD:</i></h4>
-        <p align="justify">A CNAME (Canonical Name) points one domain or subdomain to another domain name, allowing you to update one A Record 
-            each time you make a change, regardless of how many Host Records need to resolve to that IP address.</p>
-            <h4><i>=> MX RECORD:</i></h4>
-        <p align="justify">An MX Entry (Mail Exchanger) directs email to a particular mail server. Like a CNAME, MX Entries must point to a 
-            domain and never point directly to an IP address.</p>
-            <h4><i>=> TXT RECORD:</i></h4>
-            <p align="justify">A TXT (Text) record was originally intended for human-readable text. These records are dynamic and can be used for 
-                several purposes. TXT records are commonly used for Google Verification.
-            </p>
-            <h4><i>=> SRV RECORD:</i></h4>
-            <p align="justify">An SRV (Service) record points one domain to another domain name using a specific destination port. In addition, 
-                SRV records allow specific services, such as VOIP or IM, to be directed to a separate location.</p>
-                <h4><i>=> AAAA RECORD:</i></h4>
-                <p align="justify">The AAAA record is similar to the A record, allowing you to point the domain to an Ipv6 address. </p>
-        <br>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OSINT Framework</title>
+    <style>
         
-        <h2> <b>
-            <a href="https://www.whois.com/whois/" class="custom-link">2. Domain Register Records Information</a>
-            </b></h2>
-        <p align="justify">A Whois domain lookup allows you to trace the ownership and tenure of a domain name. 
-            imilar to how all houses are registered with a governing authority, all domain name registries maintain a record of 
-            information about every domain name purchased through them, along with who owns it, and the date till which it has 
-            been purchased.</p><br>
-            
-        <h2>
-            <b>
-                <a href="https://haveibeenpwned.com/" class="custom-link">3. Email Address in Data Breach</a>
-            </b>
-        </h2>
-        <p align="justify">Have I Been Pwned? is a website that allows Internet users to check whether their personal data has 
-            been compromised by data breaches. The site has been widely touted as a valuable resource for Internet users wishing
-             to protect their own security and privacy.</p><br>
-        <h2>
-            <b>
-                <a href="https://wheregoes.com/" class="custom-link">4. URL Redirect Checker</a>
-            </b>
-        </h2>
-        <p align="justify">Where does this link go? The URL redirect checker follows the path of the URL. It will show you the 
-            full redirection path of URLs, shortened links, or tiny URLs. Also referred to as a link checker, url checker, 
-            redirect checker, link tracker, url tracker, redirect tracer, link follower, 301 redirect checker, redirect tracker, 
-            URL tester, and so on.</p><br>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: lightskyblue;
+        }
 
-            <h2>
-                <b>
-                    <a href="https://www.virustotal.com/gui/home/upload" class="custom-link">5. Malware Analyse</a>
-                </b>
-            </h2>
-            <p align="justify">Analyse suspicious files, domains, IPs and URLs to detect malware and other breaches, automatically 
-                share them with the security community. </p><br>    
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #007BFF;
+            color: black;
+            font-family: 'Times New Roman', Times, serif;
+        }
 
-            <h2><b>
-                <a href = "https://tineye.com/" class="custom-link">6. Reverse Image Search</a>
-            </b></h2>
-            <p align="justify">TinEye is a reverse image search engine developed and offered by Idée, Inc., a company based in Toronto, Ontario,
-                 Canada. It is the first image search engine on the web to use image identification technology rather than keywords, 
-                 metadata or watermarks.</p>
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            margin: 0;
+            font-size: 1.2em;
+        }
+
+        
+        .card {
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(5, 90, 90);
+            padding: 20px;
+            width: 80%;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;   
+        }
+
+        .card img {
+            height: 250px;
+            margin-left: 10px;
+        }
+
+        .hi {
+            height: 250px;
+            margin-left: 10px;
+            margin-top: 0px;
+        }
+
+        .card h2 {
+            margin: 0;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.5em;
+            color: #007BFF;
+        }
+
+        .card h2 a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+        .card h4 {
+            color: white;
+        }
+        .card p {
+            margin: 10px 0 0;
+            font-size: 1em;
+            font-style: italic;
+            color: #333;
+            color: white;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #007BFF;
+            color: black;
+            margin-top: 20px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <b>
+        <h1>OSINT Framework</h1>
+        <p>Explore tools for Open Source Intelligence</p>
+        </b>
+    </header>
+
+    <main>
+        <div class="card">
+            <div class="text">
+            <h2><a href="https://nslookup.com" target="_blank">IP Address</a></h2>
+            <p align="justify">
+                An A record (Address Record) points a domain or subdomain to an IP address. 
+                For example, an A Record is used to point a logical domain name, such as "google.com," to the IP address of Google's
+                 hosting server, "74.125.224.147".
+            <p>=> CNAME Record
+            <p>=> MX Record
+            <p>=> TXT Record
+            <p>=> SRV Recprd
+            <p>=> AAAA Record
+            </div>
+            <img class="hi" src="https://ruurtjan.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdns-lookup.5814af55.png&w=3840&q=75"
+        alt="IP Address Logo">
+    </p> </p> </p> </p> </p> </p> </p> 
+        </div>
+        
+
+        <div class="card">
+            <div class="text">
+            <h2><a href="https://www.whois.com/whois/" target="_blank">Domain Register Record Information</a></h2>
+            <p align="justify">A Whois domain lookup allows you to trace the ownership and tenure of a domain name. 
+                imilar to how all houses are registered with a governing authority, all domain name registries maintain a record of 
+                information about every domain name purchased through them, along with who owns it, and the date till which it has 
+                been purchased.<br>
+                <p>=> Useful for:
+
+                     <p>*Investigating domain history.
+                        <p>*Verifying domain ownership. 
+                            <p>*Checking domain availability.
+            </div>
+                <img src="https://jamesnames.com/wp-content/uploads/2021/06/Screen-Shot-2021-06-03-at-13.44.16.png"/>
+            </p></p></p></p></p>
+        </div>
+        
+        <div class="card">
+            <div class="text">
+                <h2><a href="https://haveibeenpwned.com/" target="_blank">Email Address in Data Breach</a></h2>
+                <p align="justify">Have I Been Pwned? is a website that allows Internet users to check whether their personal data has 
+                    been compromised by data breaches. The site has been widely touted as a valuable resource for Internet users wishing
+                     to protect their own security and privacy.
+                     <p>=> Useful for:
+                        <p>*Protecting personal information by identifying risks early.
+                            <p>*Encouraging password updates and better security practices.
+                                <p>*Helping cybersecurity professionals investigate breaches.
+            </div>
+                <img src="https://i.dailymail.co.uk/i/pix/2017/08/07/11/430B10E400000578-0-image-a-32_1502101523740.jpg">
+            </p></p></p></p></p>
+        </div>
+
+        <div class="card">
+            <div class="text">
+                <h2><a href="https://wheregoes.com/" target="_blank">4. URL Redirect Checker</a></h2>
+                <p align="justify">Where does this link go? The URL redirect checker follows the path of the URL. It will show you the 
+                    full redirection path of URLs, shortened links, or tiny URLs. Also referred to as a link checker, url checker, 
+                    redirect checker, link tracker, url tracker, redirect tracer, link follower, 301 redirect checker, redirect tracker, 
+                    URL tester, and so on.
+                    <p>=> USeful for:
+                        <p>* Identifying network issues such as slow connections or routing problems.
+                            <p>*Troubleshooting internet and network performance.
+                                <p>*Helping network administrators optimize paths and reduce latency.
+                </div>
+                <img src="https://preview.atlaq.com/fe6992e5ec47e4acdac3596b81339dec_wheregoes.com.png">
+            </p></p></p></p></p>
+                </div>
+
+         <div class="card">
+            <div class="text">
+                <h2><a href="https://www.virustotal.com/gui/home/upload" target="_blank">5. Malware Analyse</a></h2>
+                <p align="justify">Analyse suspicious files, domains, IPs and URLs to detect malware and other breaches, automatically 
+                    share them with the security community. 
+                    <p>=> Useful for:
+                        <p>*Checking suspicious files and URLs before opening them.
+                            <p>*Helping security professionals detect and analyze malware.
+                                <p>*Verifying if a website or file is safe to use.
+                                    <p>*Assisting in digital forensics and incident response.
+                </div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJGre-guJVmHN1wzxroKQwR8W0YXsPZ3KMwg&s">
+            </p></p></p></p></p></p>
+                </div>
+
+         <div class="card">
+            <div class="text">
+                <h2> <a href = "https://tineye.com/" target="_blank">6. Reverse Image Search</a></h2>
+                <p align="justify">TinEye is a reverse image search engine developed and offered by Idée, Inc., a company based in Toronto, Ontario,
+                    Canada. It is the first image search engine on the web to use image identification technology rather than keywords, 
+                    metadata or watermarks.
+                    <p>=> Useful for:
+                        <p>*Checking if images are being used without permission or illegally.
+                            <p>*Finding higher quality versions of an image.
+                                <p>*Assisting in digital forensics and copyright investigations.
+                </div>
+                <img src="https://www.zdnet.com/a/img/resize/ac1826854692901fe788f26638f8074f39808639/2016/07/31/f436de30-3f53-4f2c-8c4b-99fc5a9888f4/ziff-tineye.jpg?auto=webp&width=1280">
+            </p></p></p></p></p>
+                </div>
+
+      
+    </main>
 
     <footer>
+        <b>
         <hr>
         <p class="special"><i>By</i></p> 
         <p class="special"><i>Nitharshana N</i></p>
         <p class="special"><i>Tharani C</i></p>
         <p class="special"><i>Lithika V</i></p>
         <p><i>Reference:<u><a href="https://framework.com" >osintframework.com</a></u></i></p>
-        <h2>&copy; <i>Copyright</i></h2>
+        <h2>&copy; <i>Copyright</i></h2></b>
     </footer>
-    </body>
+</body>
 </html>
