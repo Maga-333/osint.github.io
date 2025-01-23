@@ -32,9 +32,16 @@
             margin: 0;
             font-size: 1.2em;
         }
-
         
-        .card {
+        .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 20px;
+        }
+        .card {    
+            flex: 1;
             display: flex;
             justify-content: space-between;
             background-color: rgb(5, 90, 90);
@@ -43,7 +50,8 @@
             border: 1px solid #ddd;
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            margin: 20px auto;   
+            margin: 20px auto; 
+            text-align: center;
         }
 
         .card img {
