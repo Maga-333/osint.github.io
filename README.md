@@ -122,7 +122,7 @@
             <img class="hi" src="https://ruurtjan.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdns-lookup.5814af55.png&w=3840&q=75"
         alt="IP Address Logo">
     </p> </p> </p> </p> </p> </p> </p> 
-        </div>
+        </div><br><br>
         
 
         <div class="card">
