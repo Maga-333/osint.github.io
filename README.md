@@ -18,7 +18,7 @@ header, footer {
     width: 100%; /* Full width for header and footer */
     position: relative;
     text-align: center;
-    padding: 20px;
+    padding: 3px;
     background-color: #007BFF;
     color: black;
     font-family: 'Times New Roman', Times, serif;
