@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OSINT Framework</title>
     <style>
-      body {
+        body {
     display: grid;
     place-items: center;
     font-family: Arial, sans-serif;
