@@ -34,16 +34,16 @@
 
         .card {
             flex: 1;
-            display: flex;
-            justify-content: space-between;
-            background-color: rgb(5, 90, 90);
-            padding: 20px;
-            width: 80%;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            margin: 20px auto;
-            text-align: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(5, 90, 90);
+    padding: 20px;
+    width: 90%; /* Increased width from 80% to 90% */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    text-align: center;
         }
 
         .card img {
