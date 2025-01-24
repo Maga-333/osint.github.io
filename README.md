@@ -14,22 +14,21 @@
     background-color: lightskyblue;
 }
 
-header, footer {
-    width: 100%; /* Full width for header and footer */
-    position: relative;
+header {
+    width: 100%; /* Full width for header */
     text-align: center;
-    padding: 3px;
+    padding: 20px; /* Header padding updated */
     background-color: #007BFF;
     color: black;
     font-family: 'Times New Roman', Times, serif;
 }
 
-header h1, footer h2 {
+header h1 {
     margin: 0;
     font-size: 2.5em;
 }
 
-header p, footer p {
+header p {
     margin: 0;
     font-size: 1.2em;
 }
@@ -40,7 +39,7 @@ header p, footer p {
     justify-content: space-between;
     background-color: rgb(5, 90, 90);
     padding: 20px;
-    width: 95%; /* Increased width to 95% */
+    width: 95%; /* Adjusted card width */
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -77,6 +76,26 @@ header p, footer p {
     font-style: italic;
     color: white;
 }
+
+footer {
+    width: 100%; /* Full width for footer */
+    text-align: center;
+    padding: 5px; /* Footer padding updated */
+    background-color: #007BFF;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
+
 
     </style>
 </head>
