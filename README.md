@@ -123,7 +123,10 @@
         alt="IP Address Logo">
     </p> </p> </p> </p> </p> </p> </p> 
         </div><br><br>
-        
+        <div class="card">
+            <div class="text">
+            <p> hi</p>
+        </div></div>
 
         <div class="card">
             <div class="text">
