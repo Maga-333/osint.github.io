@@ -5,85 +5,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OSINT Framework</title>
     <style>
-        body {
-            display: grid;
-            place-items: center;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: lightskyblue;
-        }
+      body {
+    display: grid;
+    place-items: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightskyblue;
+}
 
-        header {
-            text-align: center;
-            padding: 20px;
-            background-color: #007BFF;
-            color: black;
-            font-family: 'Times New Roman', Times, serif;
-        }
+header, footer {
+    width: 100%; /* Full width for header and footer */
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    background-color: #007BFF;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
 
-        header h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
+header h1, footer h2 {
+    margin: 0;
+    font-size: 2.5em;
+}
 
-        header p {
-            margin: 0;
-            font-size: 1.2em;
-        }
+header p, footer p {
+    margin: 0;
+    font-size: 1.2em;
+}
 
-        .card {
-            flex: 1;
+.card {
+    flex: 1;
     display: flex;
     justify-content: space-between;
     background-color: rgb(5, 90, 90);
     padding: 20px;
-    width: 90%; /* Increased width from 80% to 90% */
+    width: 95%; /* Increased width to 95% */
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin: 20px auto;
     text-align: center;
-        }
+}
 
-        .card img {
-            height: 250px;
-            margin-left: 10px;
-        }
+.card img {
+    height: 250px;
+    margin-left: 10px;
+}
 
-        .card h2 {
-            margin: 0;
-            font-family: 'Times New Roman', Times, serif;
-            font-size: 1.5em;
-            color: #007BFF;
-        }
+.card h2 {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    color: #007BFF;
+}
 
-        .card h2 a {
-            text-decoration: none;
-            color: #007BFF;
-        }
+.card h2 a {
+    text-decoration: none;
+    color: #007BFF;
+}
 
-        .card ul {
-            text-align: left;
-            color: white;
-            padding-left: 20px;
-        }
+.card ul {
+    text-align: left;
+    color: white;
+    padding-left: 20px;
+}
 
-        .card p {
-            margin: 10px 0 0;
-            font-size: 1em;
-            font-style: italic;
-            color: white;
-        }
+.card p {
+    margin: 10px 0 0;
+    font-size: 1em;
+    font-style: italic;
+    color: white;
+}
 
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #007BFF;
-            color: black;
-            margin-top: 20px;
-            font-family: 'Times New Roman', Times, serif;
-        }
     </style>
 </head>
 <body>
