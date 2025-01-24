@@ -109,7 +109,7 @@ footer p {
         <!-- Card 1 -->
         <div class="card">
             <div class="text">
-                <h2><a href="https://nslookup.com" target="_blank">IP Address</a></h2>
+                <h2><a href="https://nslookup.io" target="_blank">IP Address</a></h2>
                 <p>A record (Address Record) points a domain or subdomain to an IP address. 
                     For example, an A Record is used to point a logical domain name, such as "google.com," to the IP address of Google's
                      hosting server, "74.125.224.147".</p>
