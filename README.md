@@ -96,8 +96,10 @@
         <!-- Card 1 -->
         <div class="card">
             <div class="text">
-                <h2><a href="https://nslookup.com" target="_blank">1. IP Address</a></h2>
-                <p>An A record (Address Record) points a domain or subdomain to an IP address.</p>
+                <h2><a href="https://nslookup.com" target="_blank">IP Address</a></h2>
+                <p>A record (Address Record) points a domain or subdomain to an IP address. 
+                    For example, an A Record is used to point a logical domain name, such as "google.com," to the IP address of Google's
+                     hosting server, "74.125.224.147".</p>
                 <ul>
                     <li>CNAME Record</li>
                     <li>MX Record</li>
@@ -112,8 +114,11 @@
         <!-- Card 2 -->
         <div class="card">
             <div class="text">
-                <h2><a href="https://www.whois.com/whois/" target="_blank">2. Domain Register Record Information</a></h2>
-                <p>Allows tracing of domain ownership and history.</p>
+                <h2><a href="https://www.whois.com/whois/" target="_blank">Domain Register Record Information</a></h2>
+                <p>A Whois domain lookup allows you to trace the ownership and tenure of a domain name. 
+                    imilar to how all houses are registered with a governing authority, all domain name registries maintain a record of 
+                    information about every domain name purchased through them, along with who owns it, and the date till which it has 
+                    been purchased.</p>
                 <ul>
                     <li>Investigating domain history</li>
                     <li>Verifying domain ownership</li>
@@ -126,8 +131,10 @@
         <!-- Card 3 -->
         <div class="card">
             <div class="text">
-                <h2><a href="https://haveibeenpwned.com/" target="_blank">3. Email Address in Data Breach</a></h2>
-                <p>Check if your email was part of a data breach.</p>
+                <h2><a href="https://haveibeenpwned.com/" target="_blank">Email Address in Data Breach</a></h2>
+                <p>Have I Been Pwned? is a website that allows Internet users to check whether their personal data has 
+                    been compromised by data breaches. The site has been widely touted as a valuable resource for Internet users wishing
+                     to protect their own security and privacy.</p>
                 <ul>
                     <li>Protect personal information</li>
                     <li>Encourage password updates</li>
@@ -140,8 +147,11 @@
         <!-- Card 4 -->
         <div class="card">
             <div class="text">
-                <h2><a href="https://wheregoes.com/" target="_blank">4. URL Redirect Checker</a></h2>
-                <p>Trace the redirection path of a URL.</p>
+                <h2><a href="https://wheregoes.com/" target="_blank">URL Redirect Checker</a></h2>
+                <p>Where does this link go? The URL redirect checker follows the path of the URL. It will show you the 
+                    full redirection path of URLs, shortened links, or tiny URLs. Also referred to as a link checker, url checker, 
+                    redirect checker, link tracker, url tracker, redirect tracer, link follower, 301 redirect checker, redirect tracker, 
+                    URL tester, and so on.</p>
                 <ul>
                     <li>Identify network issues</li>
                     <li>Troubleshoot performance</li>
@@ -154,8 +164,9 @@
         <!-- Card 5 -->
         <div class="card">
             <div class="text">
-                <h2><a href="https://www.virustotal.com/gui/home/upload" target="_blank">5. Malware Analysis</a></h2>
-                <p>Analyze suspicious files, domains, and URLs for malware.</p>
+                <h2><a href="https://www.virustotal.com/gui/home/upload" target="_blank">Malware Analysis</a></h2>
+                <p>Analyse suspicious files, domains, IPs and URLs to detect malware and other breaches, automatically 
+                    share them with the security community. </p>
                 <ul>
                     <li>Check files and URLs before opening</li>
                     <li>Detect and analyze malware</li>
@@ -168,8 +179,10 @@
         <!-- Card 6 -->
         <div class="card">
             <div class="text">
-                <h2><a href="https://tineye.com/" target="_blank">6. Reverse Image Search</a></h2>
-                <p>Search for image origins or higher resolutions.</p>
+                <h2><a href="https://tineye.com/" target="_blank">Reverse Image Search</a></h2>
+                <p>TinEye is a reverse image search engine developed and offered by Idée, Inc., a company based in Toronto, Ontario,
+                    Canada. It is the first image search engine on the web to use image identification technology rather than keywords, 
+                    metadata or watermarks.</p>
                 <ul>
                     <li>Find higher-quality images</li>
                     <li>Identify unauthorized use</li>
@@ -186,7 +199,6 @@
         <p><i>Nitharshana N</i></p>
         <p><i>Tharani C</i></p>
         <p><i>Lithika V</i></p>
-        <p><i>Reference: <a href="https://framework.com" target="_blank">osintframework.com</a></i></p>
         <h2>&copy; <i>Copyright</i></h2>
     </footer>
 </body>
