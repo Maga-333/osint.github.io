@@ -5,58 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OSINT Framework</title>
     <style>
-        body {
-    display: grid;
-    place-items: center;
+       body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: lightskyblue;
 }
 
-header {
-    width: 100%; /* Full width for header */
+header, footer {
+    width: 100%;
     text-align: center;
-    padding: 20px; /* Header padding updated */
+    padding: 20px;
     background-color: #007BFF;
     color: black;
     font-family: 'Times New Roman', Times, serif;
 }
 
-header h1 {
+header h1, footer h2 {
     margin: 0;
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
-header p {
-    margin: 0;
-    font-size: 1.2em;
+main {
+    width: 100%;
+    max-width: 1200px; /* Laptop-க்கு proper width */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .card {
-    flex: 1;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row; /* Default desktop-க்கு row-wise */
+    align-items: center;
     background-color: rgb(5, 90, 90);
     padding: 20px;
-    width: 95%; /* Adjusted card width */
+    width: 90%;
+    max-width: 1000px;
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin: 20px auto;
+    margin: 20px 0;
     text-align: center;
 }
 
 .card img {
     height: 250px;
-    margin-left: 10px;
+    margin-left: 20px;
+    max-width: 100%;
+    border-radius: 8px;
 }
 
-.card h2 {
-    margin: 0;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5em;
-    color: #007BFF;
+.card .text {
+    flex: 1;
+    text-align: left;
+    color: white;
 }
 
 .card h2 a {
@@ -65,38 +71,28 @@ header p {
 }
 
 .card ul {
-    text-align: left;
-    color: white;
     padding-left: 20px;
 }
 
 .card p {
-    margin: 10px 0 0;
-    font-size: 1em;
     font-style: italic;
-    color: white;
 }
 
-footer {
-    width: 100%; /* Full width for footer */
-    text-align: center;
-    padding: 5px; /* Footer padding updated */
-    background-color: #007BFF;
-    color: black;
-    font-family: 'Times New Roman', Times, serif;
+/* ✅ Mobile View Fix */
+@media (max-width: 768px) {
+    .card {
+        flex-direction: column; /* Mobile-ல column-wise */
+        text-align: center;
+    }
+    .card img {
+        margin: 10px 0;
+        width: 100%; /* Mobile-ல image full width */
+        height: auto;
+    }
+    .card .text {
+        text-align: center;
+    }
 }
-
-footer h2 {
-    margin: 0;
-    font-size: 1.5em;
-}
-
-footer p {
-    margin: 0;
-    font-size: 1em;
-}
-
-
     </style>
 </head>
 <body>
