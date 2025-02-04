@@ -5,27 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OSINT Framework</title>
     <style>
-       /* Universal reset for all browsers */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; /* Prevent width overflow */
-}
-
-/* Body */
-body {
+    body {
     display: flex;
     flex-direction: column;
     align-items: center;
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
     background-color: lightskyblue;
-    width: 100vw; /* Full viewport width */
-    overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
-/* Header & Footer Fix */
 header, footer {
-    width: 100%; /* Full width */
+    width: 100%;
     text-align: center;
     padding: 20px;
     background-color: #007BFF;
@@ -33,17 +24,22 @@ header, footer {
     font-family: 'Times New Roman', Times, serif;
 }
 
-/* Main Content Wrapper */
-main {
-    width: 100%;
-    max-width: 1200px; /* Center align laptop screens */
-    margin: auto;
+header h1, footer h2 {
+    margin: 0;
+    font-size: 2em;
 }
 
-/* Cards */
+main {
+    width: 100%;
+    max-width: 1200px; /* Laptop-க்கு proper width */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .card {
     display: flex;
-    flex-direction: row;
+    flex-direction: row; /* Default desktop-க்கு row-wise */
     align-items: center;
     background-color: rgb(5, 90, 90);
     padding: 20px;
@@ -51,9 +47,9 @@ main {
     max-width: 1000px;
     border: 1px solid #ddd;
     border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin: 20px 0;
     text-align: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .card img {
@@ -62,6 +58,7 @@ main {
     max-width: 100%;
     border-radius: 8px;
 }
+
 .card .text {
     flex: 1;
     text-align: left;
@@ -81,15 +78,15 @@ main {
     font-style: italic;
 }
 
-/* Mobile View Fix */
+/* ✅ Mobile View Fix */
 @media (max-width: 768px) {
     .card {
-        flex-direction: column; /* Column alignment for smaller screens */
+        flex-direction: column; /* Mobile-ல column-wise */
         text-align: center;
     }
     .card img {
         margin: 10px 0;
-        width: 100%;
+        width: 100%; /* Mobile-ல image full width */
         height: auto;
     }
     .card .text {
