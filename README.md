@@ -7,7 +7,7 @@
     <style>
        body {
     display: flex;
-    flex-direction: column;
+    flex-direction: columm;
     align-items: center;
     font-family: Arial, sans-serif;
     margin: 0;
