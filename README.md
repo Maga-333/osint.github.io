@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OSINT Framework</title>
     <style>
-    body {
+  body {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -68,6 +68,7 @@ main {
 .card h2 a {
     text-decoration: none;
     color: #007BFF;
+    text-align: center;
 }
 
 .card ul {
@@ -105,7 +106,7 @@ main {
         <!-- Card 1 -->
         <div class="card">
             <div class="text">
-                <h2><a href="https://nslookup.io" target="_blank">IP Address</a></h2>
+                <h2 align="center"><a href="https://nslookup.io" target="_blank">IP Address</a></h2>
                 <p>A record (Address Record) points a domain or subdomain to an IP address. 
                     For example, an A Record is used to point a logical domain name, such as "google.com," to the IP address of Google's
                      hosting server, "74.125.224.147".</p>
@@ -123,7 +124,7 @@ main {
         <!-- Card 2 -->
         <div class="card">
             <div class="text">
-                <h2><a href="https://www.whois.com/whois/" target="_blank">Domain Register Record Information</a></h2>
+                <h2 align="center"><a href="https://www.whois.com/whois/" target="_blank">Domain Register Record Information</a></h2>
                 <p>A Whois domain lookup allows you to trace the ownership and tenure of a domain name. 
                     imilar to how all houses are registered with a governing authority, all domain name registries maintain a record of 
                     information about every domain name purchased through them, along with who owns it, and the date till which it has 
@@ -140,7 +141,7 @@ main {
         <!-- Card 3 -->
         <div class="card">
             <div class="text">
-                <h2><a href="https://haveibeenpwned.com/" target="_blank">Email Address in Data Breach</a></h2>
+                <h2 align="center"><a href="https://haveibeenpwned.com/" target="_blank">Email Address in Data Breach</a></h2>
                 <p>Have I Been Pwned? is a website that allows Internet users to check whether their personal data has 
                     been compromised by data breaches. The site has been widely touted as a valuable resource for Internet users wishing
                      to protect their own security and privacy.</p>
@@ -156,7 +157,7 @@ main {
         <!-- Card 4 -->
         <div class="card">
             <div class="text">
-                <h2><a href="https://wheregoes.com/" target="_blank">URL Redirect Checker</a></h2>
+                <h2 align="center"><a href="https://wheregoes.com/" target="_blank">URL Redirect Checker</a></h2>
                 <p>Where does this link go? The URL redirect checker follows the path of the URL. It will show you the 
                     full redirection path of URLs, shortened links, or tiny URLs. Also referred to as a link checker, url checker, 
                     redirect checker, link tracker, url tracker, redirect tracer, link follower, 301 redirect checker, redirect tracker, 
@@ -173,7 +174,7 @@ main {
         <!-- Card 5 -->
         <div class="card">
             <div class="text">
-                <h2><a href="https://www.virustotal.com/gui/home/upload" target="_blank">Malware Analysis</a></h2>
+                <h2 align="center"><a href="https://www.virustotal.com/gui/home/upload" target="_blank">Malware Analysis</a></h2>
                 <p>Analyse suspicious files, domains, IPs and URLs to detect malware and other breaches, automatically 
                     share them with the security community. </p>
                 <ul>
@@ -188,7 +189,7 @@ main {
         <!-- Card 6 -->
         <div class="card">
             <div class="text">
-                <h2><a href="https://tineye.com/" target="_blank">Reverse Image Search</a></h2>
+                <h2 align="center"><a href="https://tineye.com/" target="_blank">Reverse Image Search</a></h2>
                 <p>TinEye is a reverse image search engine developed and offered by Idée, Inc., a company based in Toronto, Ontario,
                     Canada. It is the first image search engine on the web to use image identification technology rather than keywords, 
                     metadata or watermarks.</p>
