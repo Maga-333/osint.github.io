@@ -16,8 +16,7 @@
 }
 
 header, footer {
-    width: 100vw;
-    position: relative;
+    width: 100px;
     text-align: center;
     padding: 20px;
     background-color: #007BFF;
