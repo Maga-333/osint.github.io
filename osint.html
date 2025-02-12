@@ -16,7 +16,7 @@
 }
 
 header, footer {
-    width: 100px;
+    width: 100%;
     text-align: center;
     padding: 20px;
     background-color: #007BFF;
@@ -212,4 +212,4 @@ main {
         <h2>&copy; <i>Copyright</i></h2>
     </footer>
 </body>
-</html>
+</html>   
